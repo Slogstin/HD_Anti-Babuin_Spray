@@ -1,0 +1,14 @@
+class VirBabuSprayHandler : EventHandler
+{
+	override void CheckReplacement(ReplaceEvent e)
+	{
+		switch (e.Replacee.GetClassName()) {
+		
+		
+			case 'BlueFrag' :
+			case 'HelmFrag' :
+				if (!random(0, 24)) {e.Replacement = "HDBabuSpray";}	
+				break;
+			}
+	}
+}
