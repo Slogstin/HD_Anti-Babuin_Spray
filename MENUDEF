@@ -1,0 +1,22 @@
+AddOptionMenu "OptionsMenu" {
+    Submenu "$babuspray_MENU", "babusprayMenu"
+}
+
+AddOptionMenu "HDAddonMenu" {
+    Submenu "$babuspray_MENU", "babusprayMenu"
+}
+
+OptionMenu "babusprayMenu"
+{
+    Title "$babuspray_MENU"
+    
+    StaticText ""
+    StaticText "$MERCH_TAG_babuspray"
+    Slider "$MENU_ITEMSPAWNRATE", "babuspray_chance", 0.0, 255, 1, 2
+    Slider "$MENU_MERCHPRICE", "hdm_babuspray_price", 0.0, 10000, 10, 2
+    Option "$MENU_MERCHENABLED", "hdm_enable_babuspray", "OnOff"
+    StaticText ""
+
+    StaticText ""
+    Option "$MENU_PERSISTENCY", "babuspray_persistency", "OnOff"
+}

@@ -1,0 +1,7 @@
+addSpawnTableSingleEntry => { "tableName": "ArmorBonusReplaces", "name": "HDBabuSpray", "weight": "1", "chance": "#babuspray_chance", "persists": "#babuspray_persistency" }
+addSpawnTableSingleEntry => { "tableName": "HealthBonusReplaces", "name": "HDBabuSpray", "weight": "1", "chance": "#babuspray_chance", "persists": "#babuspray_persistency" }
+
+addBPSpawnPoolFilter => { "name": "HDBabuSpray", "allowed": "#babuspray_allowBackpacks" }
+addWeaponCrateFilter => { "name": "HDBabuSpray", "allowed": "#babuspray_allowBackpacks" }
+
+newMerchantStoreItem => { "enabled": "#hdm_enable_babuspray", "type": "weapon", "category": "$MERCH_CAT_SLOGSTIN", "item": "HDBabuSpray", "icon": "BBUSA0", "displayName": "$MERCH_TAG_BABUSPRAY", "basePrice": "#hdm_babuspray_price", "flavorText": "$MERCH_FLAVOR_BABUSPRAY" }

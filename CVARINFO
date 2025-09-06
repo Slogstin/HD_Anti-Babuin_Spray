@@ -1,0 +1,8 @@
+// Spawning
+server int babuspray_chance = 96;
+server bool babuspray_allowBackpacks = true;
+server bool babuspray_persistency = true;
+
+// Merchant
+server int hdm_babuspray_price = 96;
+server bool hdm_enable_babuspray = true;

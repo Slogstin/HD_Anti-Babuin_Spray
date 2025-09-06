@@ -3,6 +3,8 @@
 //	when spraying players who have heat on them.	-Slogstin
 //	------------------------------------------------------------------------------
 
+const HDLD_BABUSPRAY = "abs";
+
 class HDBabuSpray:HDWeaponGrabber{
 	int targettimer;
 	int targethealth;
@@ -19,11 +21,11 @@ class HDBabuSpray:HDWeaponGrabber{
 		weapon.bobspeed 2.1;
 		weapon.kickback 2;
 		scale 0.3;
-		inventory.pickupmessage "Picked up a can of ''Babu-Begone'' anti-babuin spray.";
-		obituary "%k discovered that %o is a Babuin.";
+		inventory.pickupmessage "$BABUSPRAY_PICKUP";
+		obituary "$BABUSPRAY_OB";
 		hdweapon.barrelsize 26,1,2;
-		hdweapon.refid "ABS";
-		tag "''Babu-Begone'' Anti-Babuin Spray";
+		hdweapon.refid HDLD_BABUSPRAY;
+		tag "$BABUSPRAY_TAG";
 		+inventory.invbar
 		inventory.icon "BBUSA0";
 	}
@@ -45,7 +47,7 @@ class HDBabuSpray:HDWeaponGrabber{
 	}
 	override string gethelptext(){
 		return
-		WEPHELP_FIRE.."  Fire\n"
+		LWPHELP_FIRE.."  Fire\n"
 //		..WEPHELP_ALTFIRE.."   Swing\n"
 		;
 	}
