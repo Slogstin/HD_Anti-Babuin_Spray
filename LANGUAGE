@@ -10,7 +10,7 @@ MENU_PERSISTENCY = "Persistent Spawns: ";
 // Merchant
 MERCH_CAT_SLOGSTIN = "Virid Inc.";
 MERCH_TAG_BABUSPRAY = "''Babu-Begone'' Anti-Babuin Spray";
-MERCH_FLAVOR_BABUSPRAY = "";
+MERCH_FLAVOR_BABUSPRAY = "Dump the whole can into a Babuin to make it explode violently. It's a feature.";
 
 // Weapon
 BABUSPRAY_TAG = "''Babu-Begone'' Anti-Babuin Spray";
