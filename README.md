@@ -2,6 +2,8 @@
 
 This Addon adds a can of Pepperspray to [Hideous Destructor](https://codeberg.org/mc776/HideousDestructor) and is somewhat intended as a joke weapon.
 
+Requires [HDCoreLib](https://github.com/HDest-Community/hdest-core-lib)!!!
+
 ![vlcsnap-2025-03-27-21h32m40s330](https://github.com/user-attachments/assets/3151badb-2cfb-40cc-a9d3-8290546453ae)
 
 ## Credits
@@ -9,6 +11,8 @@ This Addon adds a can of Pepperspray to [Hideous Destructor](https://codeberg.or
 Matt for [Hideous Destructor](https://codeberg.org/mc776/HideousDestructor).
 
 [Potetobloke](https://github.com/Potetobloke) for the [Fire Extinguisher](https://github.com/Potetobloke/PB_HDAddon_Bangers-And-Mash) code i used as a base.
+
+[Ted](https://github.com/tedthepraimortis) for localization and adding [HDCoreLib](https://github.com/HDest-Community/hdest-core-lib) support.
 
 ## Contents
 
