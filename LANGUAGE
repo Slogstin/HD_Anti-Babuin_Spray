@@ -1,0 +1,18 @@
+[enu default]
+
+// Main Menu
+BABUSPRAY_MENU = "\c[Brown]Ⓒ\c- Babuin Spray";
+MENU_ITEMSPAWNRATE = "Item Spawn Rate: ";
+MENU_MERCHENABLED = "Merchant Price: ";
+MENU_MERCHENABLED = "Merchant Sold: ";
+MENU_PERSISTENCY = "Persistent Spawns: ";
+
+// Merchant
+MERCH_CAT_SLOGSTIN = "Virid Inc.";
+MERCH_TAG_BABUSPRAY = "''Babu-Begone'' Anti-Babuin Spray";
+MERCH_FLAVOR_BABUSPRAY = "";
+
+// Weapon
+BABUSPRAY_TAG = "''Babu-Begone'' Anti-Babuin Spray";
+BABUSPRAY_OB = "%k discovered that %o is a babuin in disguise.";
+BABUSPRAY_PICKUP = "Picked up a can of ''Babu-Begone'' anti-babuin spray.";

@@ -1,18 +1,19 @@
-# Description
-This Addon adds a can of Pepperspray to [Hideous Destructor](https://codeberg.org/mc776/HideousDestructor) and is somewhat intended as a joke weapon. 
+# "Babu-Begone" Anti-Babuin Spray
+
+This Addon adds a can of Pepperspray to [Hideous Destructor](https://codeberg.org/mc776/HideousDestructor) and is somewhat intended as a joke weapon.
 
 ![vlcsnap-2025-03-27-21h32m40s330](https://github.com/user-attachments/assets/3151badb-2cfb-40cc-a9d3-8290546453ae)
 
+## Credits
 
-
-# Credits
 Matt for [Hideous Destructor](https://codeberg.org/mc776/HideousDestructor).
 
 [Potetobloke](https://github.com/Potetobloke) for the [Fire Extinguisher](https://github.com/Potetobloke/PB_HDAddon_Bangers-And-Mash) code i used as a base.
 
+## Contents
 
-# Contents
-## "BabuBegone" Anti-Babuin Spray:
+### "BabuBegone" Anti-Babuin Spray
+
     * Can spawn on Health & Armour bonuses
     * roughly 4% chance of spawning
     * Weighs 8 blocks
